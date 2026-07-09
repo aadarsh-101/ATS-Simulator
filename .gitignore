@@ -1,0 +1,15 @@
+# Dependency Directories
+node_modules/
+venv/
+__pycache__/
+
+# Environment Variables & Secrets
+.env
+
+# Uploaded Files (Don't commit user resumes)
+backend/uploads/
+*.pdf
+
+# Build outputs
+dist/
+.DS_Store
