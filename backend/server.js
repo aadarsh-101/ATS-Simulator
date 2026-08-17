@@ -184,7 +184,7 @@ app.get('/api/history', async (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`ATS Simulator Server running on port ${PORT}`);
-});
-
+//app.listen(PORT, () => {
+//    console.log(`ATS Simulator Server running on port ${PORT}`);
+//});
+module.exports = app;
